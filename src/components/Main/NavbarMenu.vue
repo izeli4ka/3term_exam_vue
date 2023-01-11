@@ -11,6 +11,12 @@
       <v-btn outlined class="ml-3">
         <router-link to="/target">Авто мечты</router-link>
       </v-btn>
+      <v-form style="margin-top: 20px;" outlined class="ml-3">
+        <v-text-field
+          label="Поиск"
+          append-icon="mdi-magnify"
+        ></v-text-field>
+      </v-form>
       <v-btn outlined class="ml-3">
         <router-link to="/zero">Выйти</router-link>
       </v-btn>

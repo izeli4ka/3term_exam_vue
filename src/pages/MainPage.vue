@@ -2,20 +2,24 @@
     <div><Banner/>
     <v-container>
       <v-row style="flex-direction: column;" >
+        <v-row style="justify-content: space-around; margin-bottom: 25px">
+          <v-btn
+            outlined
+            color="white"
+            x-large
+            >Сортировать по возрастанию цены</v-btn>
+            <v-btn
+            outlined
+            color="white"
+            x-large
+            >Сортировать по убыванию цены</v-btn>
+        </v-row>
         <v-select
           :items="items"
           label="Модель авто"
           solo
           ></v-select>
-        <v-btn
-          outlined
-          color="white"
-          x-large
-          >Модель авто</v-btn>
         </v-row>
-          <select v-model="selectSort">
-            <option v-for="rule in sortRules" :key="rule.key" :value="rule.key">{{ rule.title }}</option>
-          </select>
         </v-container>
         <v-container class="cont">
             <v-row>
@@ -54,5 +58,7 @@ export default {
 }
 </script>
 <style>
-
+ @media (width: 1300px) {
+  .img-banner {display: none;}
+}
 </style>

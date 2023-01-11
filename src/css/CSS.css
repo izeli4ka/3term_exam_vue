@@ -238,3 +238,16 @@ input::placeholder{
     color: rgb(255, 255, 255);
     font-size: 18px;
 }
+@media (width < 1300px) {
+    .img-banner,.img-about-car,.img-card-banner {display: none;}
+    .section1 {
+        background-image: url(../../public/images/Taycan_Sport.webp);
+        background-position: right ;}
+    .img-about-car{background-image: url(../../public/images/Taycan_Sport.webp);}
+    .img-card-banner {background-image: url(../../public/images/Taycan_Sport.webp);}
+}
+@media (width < 750px) {
+    .cont_footer {display: flex;
+        flex-direction: column;}
+    .v-toolbar__content, .v-toolbar__extension {flex-wrap: wrap;}
+}

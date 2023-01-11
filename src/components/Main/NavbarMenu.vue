@@ -15,7 +15,7 @@
         <router-link to="/zero">Выйти</router-link>
       </v-btn>
       <v-btn outlined class="ml-3">
-        <router-link to="/zero">Аккаунт</router-link>
+        <router-link to="/zero">Изель Бикулова</router-link>
       </v-btn>
     </v-app-bar>
   </v-container>

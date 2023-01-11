@@ -1,7 +1,7 @@
 <template>
 <div class="field">
     <v-container>
-        <p class="paragraph-comment">Оставьте свой комментарий!</p>
+        <p class="paragraph-comment">Оставьте свой отзыв!</p>
         <v-row class="d-flex">
             <v-text-field background-color="#001254" outlined class="ml-3" v-model="name"/>
             <v-text-field background-color="#001254" outlined class="ml-3" v-model="desc"/>

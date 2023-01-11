@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,500&display=swap');
+@media print {
+}
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: normal;
+}
+a{
+    text-decoration: none;
+}
+.section1{
+    color: rgb(255, 255, 255);
+    margin-top: 40px;
+    height: 500px;
+    background-color: rgb(8, 7, 40);
+    /* background-image: url(../../public/images/Taycan\ Sport.webp); */
+    /* background-size: cover; */
+    display: flex;
+    margin-bottom: 50px;
+}
+.img-banner{
+    width: 800px;
+    height: 500px;
+    object-fit: cover;
+    object-position: top;
+}
+.content1{
+    margin-top: 100px;
+    margin-right: 120px;
+    margin-left: 150px;
+}
+.buy-car{
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 50px;
+}
+.zero-page{
+    color: rgb(255, 255, 255);
+    margin-top: 100px;
+    font-weight: 400;
+    font-size: 50px;
+    width: 900px;
+    margin-left: 40px;
+    margin-bottom: 270px;
+}
+.buy-car-dream{
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.description-car{
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 80px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.img-about{
+    margin-left: 65px;
+}
+.section2{
+    display: flex;
+}
+.img-about-car{
+    width: 720px;
+    height: 500px;
+    object-fit: cover;
+    object-position: top;
+}
+.cont_footer{
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 30px;
+    padding-left: 50px;
+    border-top: 1px solid rgb(41, 87, 255);
+}
+.networks{
+    margin-right: 20px;
+}
+.section3{
+    color: rgb(255, 255, 255);
+    width: 900px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+input[type~="text"], input[type~="password"], input[type~="email"], input[type~="tel"], textarea{
+    font-size: 16px;
+    padding: 0 20px;
+}
+input:focus + .label, input:checked + .time_label, input:checked + .label{
+    color: rgb(41, 87, 255);
+} 
+.link_men,.link_women,.link_materials,.link_stores,.btn_men_Running_Shoes,.btn_women_Running_Shoes,.btn_men,.btn_women,.link_card{
+    color: var(--black-color);
+} 
+.registration_form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+    padding: 30px 70px;
+}
+.h2-form{
+    font-size: 24px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 35px;
+}
+.personal_information{
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 9px;
+}
+.label{
+    text-align: center;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 2px;
+    margin-right: 25px;
+    margin-left: 40px;
+}
+input::placeholder{
+    color:rgb(255, 255, 255);
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+.name_form{
+    border-bottom: 2px solid rgb(41, 87, 255);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding: 0px;
+    width: 420px;
+    height: 68px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.registration_email_form{
+    border-bottom: 2px solid rgb(41, 87, 255);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding: 0px;
+    width: 420px;
+    height: 68px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.phone_form{
+    border-bottom: 2px solid rgb(41, 87, 255);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding: 0px;
+    width: 420px;
+    height: 68px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.time{
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+.convenient_time{
+    text-align: center;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 2px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+.time_label{
+    text-align: center;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 2px;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+.button_to_send{
+    margin-top: 18px;    
+    margin-left: 18px;
+}
+.button_Reset{
+    margin-top: 18px; 
+}
+.form-buy{
+    display: flex;
+    justify-content: center;
+}
+.h2{
+    margin: 20px 0px;
+}
+.search{
+    width: 300px;
+}
+.img-photo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.comment-nic{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    color: white;
+}
+.comment-text{
+    font-size: 18px;
+    color: white;
+}
+.field{
+    margin-top: 50px;
+}
+.paragraph-comment{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
